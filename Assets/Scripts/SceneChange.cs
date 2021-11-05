@@ -10,4 +10,10 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("Level1Scene");
     }
+
+    public void Scene2()
+    {
+        SceneManager.LoadScene("StartScene");
+    }
+
 }
